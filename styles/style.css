@@ -266,8 +266,6 @@
 	font-weight: 700;
 	font-size: var(--title-font-size);
 	line-height: 82.5%;
-	font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-
 }
 
 @media (width >= 768px) {
@@ -287,10 +285,6 @@
 
 	.header__record-sign {
 		inset-block-start: 10px;
-	}
-
-	.content_section_concentration {
-		margin-block-end:5px;
 	}
 
 	.content_section_focus {
@@ -330,6 +324,7 @@
 
 	.section__title__concentration {
 		margin-inline-start: 20px;
+		margin-block-end:5px;
 	}
 
 	.content_section_concentration {
