@@ -154,6 +154,7 @@
 	line-height: 23.4px;
 	text-align: left;
 	font-weight: normal;
+	margin-block-end: 10px;
 }
 
 .card__title {
@@ -287,9 +288,21 @@
 		margin-inline-end: 20px;
 		max-inline-size: 364px;
 	}
+	
+	.decorated-zone::after{
+		margin-inline-start:20px;
+		margin-block-end: 10px;
+	}
+
+	.decorated-zone::before{
+		margin-inline-end: 20px;
+		margin-block-start: 10px;
+	}
 
 	.header__record-sign {
 		inset-block-start: 10px;
+		margin-block-start: 11px;
+		margin-inline-end: 20px;
 	}
 
 	.layout_box__focus{
