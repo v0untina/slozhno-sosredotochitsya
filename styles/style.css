@@ -1,7 +1,6 @@
 .page {
 	font-family: var(--main-font), monospace, sans-serif;
 	background-color: var(--bg-color);
-	background-image: url(../images/cover-image-dark.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -17,6 +16,15 @@
 	block-size: 100vh;
 	min-block-size: 668px;
 }
+
+.page.theme_light .header__record-sign {
+  display: none; 
+}
+
+.page.theme_dark .header__record-sign {
+  display: inline; 
+}
+
 
 .decorated-zone::before {
 	content: '';
